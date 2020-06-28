@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotEkleActivity">
+
+    <EditText
+        android:id="@+id/BaslikText"
+        android:layout_width="451dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="50dp"
+        android:ems="10"
+        android:hint="Başlık"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/AciklamaText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/AciklamaText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="63dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Açıklama"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/NotKaydetButonu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BaslikText" />
+
+    <Button
+        android:id="@+id/NotKaydetButonu"
+        android:layout_width="455dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="154dp"
+        android:background="#B388FF"
+        android:onClick="NotKaydet"
+        android:text="KAYDET"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AciklamaText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

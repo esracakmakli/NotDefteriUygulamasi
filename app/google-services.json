@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "529742211554",
+    "firebase_url": "https://not-defteri-uygulamasi.firebaseio.com",
+    "project_id": "not-defteri-uygulamasi",
+    "storage_bucket": "not-defteri-uygulamasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529742211554:android:20030ecce80c6b5247b1bb",
+        "android_client_info": {
+          "package_name": "com.example.notdefteriuygulamasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529742211554-q0seb3l161r41u3t2pu3kivn2mj3ve8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrgaLf14Y3T3Tj8F4DyNal_dfAfYPiIcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529742211554-q0seb3l161r41u3t2pu3kivn2mj3ve8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

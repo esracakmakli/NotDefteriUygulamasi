@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="false"
+    tools:context=".NotDetayiActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/NotDuzenleFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#B388FF"
+        android:clickable="true"
+        android:onClick="NotDuzenleFab"
+        app:backgroundTint="#B388FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DetayAciklamaText"
+        app:srcCompat="@drawable/ic_baseline_create_24" />
+
+    <EditText
+        android:id="@+id/DetayBaslikText"
+        android:layout_width="473dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="54dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="textPersonName"
+        android:text="Başlık"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/DetayAciklamaText"
+        app:layout_constraintEnd_toEndOf="@+id/DetayTarihText"
+        app:layout_constraintStart_toStartOf="@+id/DetayAciklamaText"
+        app:layout_constraintTop_toBottomOf="@+id/DetayTarihText" />
+
+    <TextView
+        android:id="@+id/DetayTarihText"
+        android:layout_width="471dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="50dp"
+        android:editable="true"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/DetayBaslikText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/DetayAciklamaText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="148dp"
+        android:background="@android:color/transparent"
+        android:editable="true"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="fkgjfkjf"
+        app:layout_constraintBottom_toTopOf="@+id/NotDuzenleFab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DetayBaslikText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
